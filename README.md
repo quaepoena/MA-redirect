@@ -41,8 +41,9 @@ This script is fairly trivial, and I don't foresee there being any updates. If
 that were to happen, though, any customizations you've made will be lost.
 Therefore I recommend turning off automatic updates. If you need to pull down an
 update, be sure to save your customizations first. (Yes, a solution could be
-made to the redirect values, check versioning information, and prompt/inform the
-user about potential conflicts, but I don't want to add that functionality.)
+made to store the redirect values, check versioning information, and
+prompt/inform the user about potential conflicts, but I don't want to add that
+functionality.)
 
 ## What if I want to see all the bands with "Death" in the name?
 
