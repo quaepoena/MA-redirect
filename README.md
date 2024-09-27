@@ -5,17 +5,11 @@ page.
 
 ## Use case
 
-If you're anything like the average person, you're on MA several times a day.
-When one is first on the site every day, it makes sense to create browser search
-shortcuts to faciliate faster searching/browsing. For example I type:
-
-> metal Spectral Wound
-
-in the address bar to see their page.
-
-Many bands (albums, etc.) have the same name, of course, and often one just
-wants to go see the page of the most popular band with the given name. This
-script allows that to happen.
+If you're anything like the average person, you're on MA several times a day and
+use the search functionality extensively, whether through the main page, or with
+a browser search shortcut. Many bands (albums, etc.) have the same name, of
+course, and often one just wants to go see the page of the most popular band
+with the given name. This script allows that to happen.
 
 (Background: I first remember wishing for something like this script about seven
 years ago.)
@@ -27,8 +21,8 @@ user is then redirected to the stored URL.
 
 ## How do I add my own redirects?
 
-Simply update the return value of `redirects()`. Watch out for commas, quoting,
-etc. Note that the search values are case sensitive.
+Simply edit the return value of `redirects()`. Watch out for commas, quoting,
+etc. Note that the values are case sensitive.
 
 If the script has stopped working after you've changed some values, but you
 don't see any error messages in the JS console, paste the script into said
@@ -48,9 +42,10 @@ functionality.)
 ## What if I want to see all the bands with "Death" in the name?
 
 Simply append a `%` to the search string. (Many other non-alphabetic characters
-will work as well.) With my setup, I would type:
+will work as well.) Type the following into the search field (or using a browser
+search shortcut):
 
-> metal Death%
+> Death%
 
 MA will disregard the `%` and you (presumably) won't have defined a redirect
 with the key `Death%`, so you'll see the normal search results page.
@@ -58,3 +53,4 @@ with the key `Death%`, so you'll see the normal search results page.
 ## Changelog
 
 - 1.1: README to markdown on greasyfork.
+- 1.2: Removed unnecessary information from README, minor wording fixes.
