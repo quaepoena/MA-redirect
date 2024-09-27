@@ -54,3 +54,7 @@ will work as well.) With my setup, I would type:
 
 MA will disregard the `%` and you (presumably) won't have defined a redirect
 with the key `Death%`, so you'll see the normal search results page.
+
+## Changelog
+
+- 1.1: README to markdown on greasyfork.
