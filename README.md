@@ -50,7 +50,11 @@ search shortcut):
 MA will disregard the `%` and you (presumably) won't have defined a redirect
 with the key `Death%`, so you'll see the normal search results page.
 
+Alternatively, you could have all your redirects use proper capitalization and
+use lowercase characters for searching.
+
 ## Changelog
 
 - 1.1: README to markdown on greasyfork.
 - 1.2: Removed unnecessary information from README, minor wording fixes.
+- 1.3: Update README.

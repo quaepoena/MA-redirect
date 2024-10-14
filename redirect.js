@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Metal Archives - Redirect
 // @description  Redirect from the search results page to a band/album/etc. page.
-// @version  1.2
+// @version  1.3
 // @include	 /^https?://www\.metal-archives\.com/search.*$/
 // @grant	 none
 // @license	 Unlicense
